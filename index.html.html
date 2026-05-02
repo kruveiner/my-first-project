@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Моя медиагалерея</title>
+</head>
+
+<body>
+  <h1>Добро пожаловать в мою медиагалерею</h1>
+
+  <nav>
+    <a href="#video">Видео</a> |
+    <a href="#audio">Аудио</a> |
+    <a href="#iframe">Встраивание</a>
+  </nav>
+
+  <section>
+    <h2 id="video">Моё видео</h2>
+    <iframe width="560" height="315" 
+      src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ" 
+      frameborder="0" allowfullscreen>
+    </iframe>
+    <p>Classic video</p>
+  </section>
+
+  <section>
+    <h2 id="audio">Моя музыка</h2>
+    <iframe width="560" height="315" 
+      src="https://www.youtube.com/embed/l8Dr7vzMSVE" 
+      frameborder="0" allowfullscreen>
+    </iframe>
+    <p>The song stuck in my mind</p>
+  </section>
+
+  <section>
+    <h2 id="iframe">Интересное место</h2>
+    <iframe 
+      src="https://virtualglobetrotting.com/map/sean-puffy-combs-house/view/google/" 
+      width="600" height="450" 
+      style="border:0;" allowfullscreen="" loading="lazy">
+    </iframe>
+    <p>Дом Sean "Puffy" Combs на карте)</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Моя медиагалерея</p>
+  </footer>
+
+<style>
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #ffe6fa, #e6f7ff);
+    color: #2c2c2c;
+    padding: 30px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #a100ff;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px #ccc;
+  }
+  h2 {
+    text-align: center;
+    color: #d63384;
+    margin-top: 30px;
+  }
+  nav {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  nav a {
+    display: inline-block;
+    background-color: #ffb3ec;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  nav a:hover {
+    background-color: #ff66cc;
+  }
+  section {
+    background-color: #ffffffdd;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  iframe {
+    display: block;
+    margin: 15px auto;
+    max-width: 90%;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  p {
+    text-align: center;
+    line-height: 1.6;
+  }
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #888;
+  }
+</style>
+
+</body>
+</html>
